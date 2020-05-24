@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "awsmobileandroidnote",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito4db41eda",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

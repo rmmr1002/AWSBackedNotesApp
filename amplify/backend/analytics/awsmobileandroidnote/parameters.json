@@ -1,0 +1,21 @@
+{
+    "appName": "awsmobileandroidnote",
+    "roleName": "pinpointLambdaRole729359cc",
+    "cloudformationPolicyName": "cloudformationPolicy729359cc",
+    "cloudWatchPolicyName": "cloudWatchPolicy729359cc",
+    "pinpointPolicyName": "pinpointPolicy729359cc",
+    "authPolicyName": "pinpoint_amplify_729359cc",
+    "unauthPolicyName": "pinpoint_amplify_729359cc",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

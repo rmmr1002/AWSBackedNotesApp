@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-awsmobileandroidnote-dev-173109-authRole",
+            "UnauthRoleArn": "arn:aws:iam::612250628981:role/amplify-awsmobileandroidnote-dev-173109-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::612250628981:role/amplify-awsmobileandroidnote-dev-173109-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-awsmobileandroidnote-dev-173109-deployment",
+            "UnauthRoleName": "amplify-awsmobileandroidnote-dev-173109-unauthRole",
+            "StackName": "amplify-awsmobileandroidnote-dev-173109",
+            "StackId": "arn:aws:cloudformation:us-east-1:612250628981:stack/amplify-awsmobileandroidnote-dev-173109/b9fdfb90-9d3c-11ea-b483-12305fa4f4bd",
+            "AmplifyAppId": "ddy97lb902tl5"
+        },
+        "categories": {
+            "auth": {
+                "cognito4db41eda": {}
+            }
+        }
+    }
+}
