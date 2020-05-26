@@ -39,7 +39,7 @@ Before you begin, do the following:
  <br> 
  <img src="https://github.com/rmmr1002/AWSBackedNotesApp/blob/master/login.png" alt="alt text" width="200" height="400" style="vertical-align:middle">
  
-  ## Authentication
+  ## Cloud backed data
  The app uses AWS AppSync to manage user data
  ![Image of DB](https://github.com/rmmr1002/AWSBackedNotesApp/blob/master/db.png)
  
